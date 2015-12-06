@@ -1,0 +1,85 @@
+<html>
+
+<head>
+<!-- Latest compiled and minified CSS -->
+<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+<link rel="stylesheet" href="css/style.css">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+<title> David Mackay Crawford </title>
+<script>
+
+
+$(document).ready(function(){
+
+	$("#login").click(function(){
+
+		pwVal = $("#inputPassword").val()
+
+		if(pwVal == 2015){
+			console.log("SUCCESS"); 
+			window.location.href = "http://mackaycrawford.com/projects/portfolio/";
+
+		} else {
+		
+			alert("Incorrect Password. Email mackaycrawford@gmail.com for password")
+		}
+		
+	
+	}); 
+	
+	$("#loginForm").submit(function(e) {
+    e.preventDefault();
+});
+
+	}); 
+
+
+
+</script>
+
+</head>
+
+<body>
+	<div class='container-fluid'>
+<div class='bg'>	
+	
+	
+	<div class='row'>
+	</div>
+		<div class='row'>
+			<div class="col-md-4"></div>
+			<div class="col-md-4" id="loginBackground">
+			
+			<form class="form-horizontal" id="loginForm">
+
+  <div class="form-group">
+    <label for="inputPassword" class="col-sm-3 control-label">Password</label>
+    <div class="col-sm-5">
+      <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+    </div>
+	<div class='col-sm-2'>
+	       <button class="button btn-primary btn" id="login" style="position: relative; left: 38px; top: 0px;"> Login </button>
+
+	</div>
+  </div>
+
+  </div>
+</form>
+			
+			</div>
+			<div class="col-md-4"></div>
+		</div>
+		</div>
+	</div>
+
+
+</body>

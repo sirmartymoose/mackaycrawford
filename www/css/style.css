@@ -1,0 +1,75 @@
+.container-fluid{
+
+
+
+    
+}
+
+.bg{
+
+
+    background: url("../images/back.jpg") no-repeat center center fixed; 
+
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+height: 100%; 
+    	background-size: 100% 100%;
+}
+
+.container{
+
+
+    background: url("../images/back.jpg") no-repeat center center fixed; 
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+height: 100%; 
+    
+}
+
+html { 
+
+}
+
+
+#leftRailOne {
+
+}
+#leftRailTwo {
+
+}
+#leftRailThree {
+
+}
+#leftRailFour {
+
+}
+#rightRailOne {
+
+
+}
+#rightRailTwo {
+
+}
+#rightRailThree {
+
+
+}
+#rightRailFour {
+ 
+}
+.row {
+    margin-bottom: 10px;
+}
+.miniHeader {
+    margin-bottom: 20px;
+}
+#loginBackground {
+
+    top: 100px;
+    border-radius: 8px;
+    height: 200px;
+}
